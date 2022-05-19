@@ -1,0 +1,2 @@
+# FutureValueWithBetterOutput
+Future Value With Better Output. Make a COPY of the Future Value project from Ch 4. Change the first output line so it says this is Part 2, as shown in the sample session below. Format the output of the answer so that it presents the money value correctly, with comma separators and 2 decimal places. Format the number of cycles so that it displays a comma separator if necessary. The output must be the result of a single line of code, with no “+” operators to append text and variables together.
