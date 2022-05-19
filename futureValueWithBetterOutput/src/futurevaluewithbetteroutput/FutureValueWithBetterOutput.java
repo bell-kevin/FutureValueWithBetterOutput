@@ -7,11 +7,9 @@ public class FutureValueWithBetterOutput {
     public static void main(String[] args) {
         System.out.print("Future Value Calculator Part 2 by Kevin Bell \n");
         Scanner computerKeyboardInput = new Scanner(System.in);
-        double interestRate;
+        double interestRate, growthAmount, presentValue;
         double futureValue = 0;
         int numberOfCycles = 0;
-        double growthAmount;
-        double presentValue;
         int i;
         System.out.print("How much money are you depositing? ");
         presentValue = computerKeyboardInput.nextDouble();
