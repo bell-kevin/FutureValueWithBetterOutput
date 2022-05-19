@@ -7,7 +7,7 @@ public class FutureValueWithBetterOutput {
     public static void main(String[] args) {
         System.out.print("Future Value Calculator Part 2 by Kevin Bell \n");
         Scanner computerKeyboardInput = new Scanner(System.in);
-        String formatedString = "After %,d cycles, it's worth $%,.2f\n";
+        //String formatedString = "After %,d cycles, it's worth $%,.2f\n";
         double interestRate, growthAmount, presentValue;
         double futureValue = 0;
         int numberOfCycles = 0, i;
@@ -23,6 +23,6 @@ public class FutureValueWithBetterOutput {
             growthAmount = futureValue * interestRate;
             futureValue = futureValue + growthAmount;
         }
-        System.out.printf(formatedString, numberOfCycles, futureValue);
+        System.out.printf("After %,d cycles, it's worth $%,.2f\n", numberOfCycles, futureValue);
     }
 }
